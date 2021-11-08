@@ -5,7 +5,6 @@
   --second-title-color: #212121;
   --main-text-color: #757575;
   --main-title-color: #ffffff;
-  --second-title-color: #ffffff;
   --header-text-color: #212121;
 }
 body {
@@ -121,14 +120,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--header-text-color) >a;
+  color: var(--header-text-color);
 }
 .about-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color) >a;
+  color: var(--main-text-color);
 }
 
 /*---Section our works---*/
@@ -139,7 +138,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color) >a;
+  color: var(--second-title-color);
 }
 
 /*---Section our command---*/
@@ -149,7 +148,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color) >a;
+  color: var(--second-title-color);
 }
 
 .about-pre-title {
@@ -158,7 +157,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color) >a;
+  color: var(--second-title-color);
 }
 .about-after-title {
   font-weight: 400;
@@ -166,7 +165,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color) >a;
+  color: var(--second-title-color);
 }
 
 /*---Footer section---*/
@@ -190,7 +189,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--main-title-color);
 }
 .footer-mail {
   font-weight: 400;
@@ -241,7 +240,7 @@ body {
 .portfolio-item {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
