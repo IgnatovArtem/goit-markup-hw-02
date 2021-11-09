@@ -76,10 +76,7 @@ body {
 
 /*---Hero section---*/
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+  padding: 200px 0;
   background-color: #2f303a;
 }
 .hero-title {
@@ -104,6 +101,10 @@ body {
   background-color: var(--main-button-color);
   cursor: pointer;
 }
+.hero-button:hover {
+  background-color: #188ce8;
+}
+
 .about {
   position: absolute;
   clip: rect(0 0 0 0);
